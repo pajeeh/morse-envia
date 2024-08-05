@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="eXj[L./R0OC#R@^_+4{S" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="TM%Q~He:]4Yq]22Bh(/h"><value name="ID"><shadow type="math_number_minmax" id="eV$fjO#$5ZYSLE+[zq@*"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></statement></block><block type="device_pin_event" id="2M[py7q4nH+Y4/9y~H;U" x="294" y="-2"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="radio_datagram_send" id="V]/-5V1LvQtiM/d:2Cs_"><value name="value"><shadow type="math_number" id="/~au}Gk0PlrpkSo_oUR-"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="v#LD%MImo4]}@hH2t[pc"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_pause" id=")D@y;%f8WHnrY0*upax$"><value name="pause"><shadow type="timePicker" id="0?tHU6},`hrh{;B-/AK1"><field name="ms">100</field></shadow></value><next><block type="device_clear_display" id="u}J5RYBPtF(5@N,XThQj"></block></next></block></next></block></next></block></statement></block></xml>
